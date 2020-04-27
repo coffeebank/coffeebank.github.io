@@ -21,11 +21,11 @@
                     </div>
                     <div class="px-6 py-4 mx-auto">
                         <a href="{{ page.profile }}" rel="noopener">
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"># GitHub</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 select-none"># GitHub</span>
                         </a>
                         {% for badge in page.badges %}
                             <a href="{{ badge.burl }}" rel="noopener">
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"># {{ badge.bname }}</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 select-none"># {{ badge.bname }}</span>
                             </a>
                         {% endfor %}
                     </div>
