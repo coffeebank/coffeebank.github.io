@@ -31,7 +31,7 @@ sitelist:
 
   - sname: Wysc Docs
     surl: /wysc/docs
-    simage: /home/media/wyscsitedocs01.png
+    simage: /home/media/wyscsitedocs01_min.jpg
     sbadges:
       - Bootstrap
       - Jekyll

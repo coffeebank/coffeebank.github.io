@@ -32,18 +32,21 @@ layout: base
         {% assign animdelay = 0.8 %}
         {% for sitecell in page.sitelist %}
             <div class="w-full sm:w-1/2 lg:w-1/3">
-                <div class="w-11/12 my-1 mx-auto md:my-2 h-40 md:h-56 rounded bg-gray-700 overflow-hidden shadow-lg cbsitehover2 relative cursor-pointer fade-in-fwd" data-micromodal-trigger="{{ sitecell.sname | slugify }}" style="animation-delay:{{ animdelay }}{% assign animdelay = animdelay | plus:0.2 %}s;">
-                    <div class="bg-center bg-cover absolute cbsitehover" style="background-image: url('{{ sitecell.simage }}')"></div>
-                    <div class="px-6 py-4 w-full bottom-0 absolute cbsiteback z-10">
-                        <p class="font-bold text-xl text-gray-100">{{ sitecell.sname }}</p>
-                        <div class="pt-4">
-                            <a href="{{ sitecell.surl }}"><i data-feather="link" class="inline-block bg-gray-400 rounded-full p-1 text-xs font-semibold text-gray-900 mb-1"></i></a>
-                            {% for sbadges in sitecell.sbadges %}
-                                <span class="inline-block bg-gray-400 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 mb-1">{{ sbadges }}</span>
-                            {% endfor %}
+                <!-- add data-micromodal-trigger="{{ sitecell.sname | slugify }}" and remove <a> when ready -->
+                <a href="{{ sitecell.surl }}">
+                    <div class="w-11/12 my-1 mx-auto md:my-2 h-40 md:h-56 rounded bg-gray-700 overflow-hidden shadow-lg cbsitehover2 relative cursor-pointer fade-in-fwd" style="animation-delay:{{ animdelay }}{% assign animdelay = animdelay | plus:0.2 %}s;">
+                        <div class="bg-center bg-cover absolute cbsitehover" style="background-image: url('{{ sitecell.simage }}')"></div>
+                        <div class="px-6 py-4 w-full bottom-0 absolute cbsiteback z-10">
+                            <p class="font-bold text-xl text-gray-100">{{ sitecell.sname }}</p>
+                            <div class="pt-4">
+                                <a href="{{ sitecell.surl }}"><i data-feather="link" class="inline-block bg-gray-400 rounded-full p-1 text-xs font-semibold text-gray-900 mb-1"></i></a>
+                                {% for sbadges in sitecell.sbadges %}
+                                    <span class="inline-block bg-gray-400 rounded-full px-2 py-1 text-xs font-semibold text-gray-900 mb-1">{{ sbadges }}</span>
+                                {% endfor %}
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="micromodal-slide" id="{{ sitecell.sname | slugify }}" aria-hidden="true">
                 <div class="modal__overlay" tabindex="-1" data-micromodal-close>
