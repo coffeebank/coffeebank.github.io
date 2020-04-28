@@ -98,6 +98,6 @@ sitelist:
         ssimage: /home/media/moehsite02.png
         ssdesc: Work in Progress
         ssbadges:
-      - MaterializeCSS
+          - MaterializeCSS
 
 ---
