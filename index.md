@@ -14,48 +14,90 @@ badges:
     burl: /cats
 
 sitelist:
-  - sname: Wysc&#12539;Virtual Study Cafe
+  - sname: Wysc
+    ssubline: Virtual Study Cafe
     surl: /wysc
-    simage: /home/media/wysc.jpg
-    sbadges:
-      - Bootstrap
-      - PWA
-
-  - sname: Wysc Blog
-    surl: /wysc/blog
     simage: /home/media/wysc02.jpg
+    sdesc: "For students striving to be better, Wysc is the study Discord server that delivers a cohesive, global online studying experience, as the first Discord server to present an edu-social cafe experience to an audience of hundreds."
+    sdescurl: https://wysc.us.to
     sbadges:
       - Bootstrap
-      - Jekyll
       - PWA
+    ssection:
+      - ssname: Wysc PWA
+        ssurl: /wysc
+        ssimage: /home/media/wysc.jpg
+        ssdesc: Work in Progress
+        ssbadges:
+          - Bootstrap
+          - PWA
 
-  - sname: Wysc Docs
-    surl: /wysc/docs
-    simage: /home/media/wyscsitedocs01_min.jpg
-    sbadges:
-      - Bootstrap
-      - Jekyll
-      - PWA
+      - ssname: Wysc Showcase
+        ssurl: /wysc-vue
+        ssimage: /home/media/wysc.jpg
+        ssdesc: Work in Progress
+        ssbadges:
+          - Vue.js
 
-  - sname: Arland - Minecraft Server
+      - ssname: Wysc Blog
+        ssurl: /wysc/blog
+        ssimage: /home/media/wysc02.jpg
+        ssdesc: Work in Progress
+        ssbadges:
+          - Bootstrap
+          - Jekyll
+          - PWA
+          
+      - ssname: Wysc Docs
+        ssurl: /wysc/docs
+        ssimage: /home/media/wyscsitedocs01_min.jpg
+        ssdesc: Work in Progress
+        ssbadges:
+          - Bootstrap
+          - Jekyll
+          - PWA
+
+  - sname: Arland
+    ssubline: Minecraft Server
     surl: /arland
     simage: "/home/media/aron-visuals-LSFuPFE9vKE-unsplash (1).jpg"
+    sdesc: "Arland is a Minecraft server run in a small group format, within a tightknit community of players."
+    sdescurl: false
     sbadges:
       - MaterializeCSS
       - Jekyll
       - PWA
-      
-  - sname: Craftmc
-    surl: /craftmc
-    simage: /home/media/craftmcsite03.png
+    ssection:
+      - ssname: Arland PWA
+        ssurl: /arland
+        ssimage: /home/media/arlandpwa.png
+        ssdesc: Work in Progress
+        ssbadges:
+          - MaterializeCSS
+
+  - sname: See More
+    ssubline: Web Apps and Landing Pages
+    surl: /
+    simage: /home/media/moehsite02.png
+    sdesc: "Trying out a handful of technologies to create progressive web apps, landing pages, services, and more. Creations are experimental and bug-prone. Drop by my Github and say hello!"
+    sdescurl: https://github.com/coffeebank
     sbadges:
       - Tailwind
       - Vue.js
+    ssection:
+      - ssname: Craftmc
+        ssurl: /craftmc
+        ssimage: /home/media/craftmcsite03.png
+        ssdesc: Work in Progress
+        ssbadges:
+          - Tailwind
+          - Vue.js
 
-  - sname: Moe Heaven
-    surl: /moeh
-    simage: /home/media/moehsite02.png
-    sbadges:
+      - ssname: Moe Heaven
+        ssurl: /moeh
+        ssimage: /home/media/moehsite02.png
+        ssdesc: Work in Progress
+        ssbadges:
       - MaterializeCSS
 
 ---
