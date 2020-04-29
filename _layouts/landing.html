@@ -2,6 +2,11 @@
 layout: base
 ---
 <title>{{ site.title }}</title>
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Nightscape Sylvia">
+<meta property="og:url" content="{{ site.url }}">
+<meta property="og:image" content="{{ site.url }}/home/media/logord.png">
+<meta property="og:description" content="{{ page.bio }}" />
 
 <div class="flex flex-wrap w-full justify-center items-center">
 
@@ -73,7 +78,7 @@ layout: base
 
                                     {% for sitesub in sitecell.ssection %}
                                         <div class="flex flex-wrap bg-white w-full rounded shadow-lg mb-4 items-stretch">
-                                            <div class="w-full md:w-1/4 h-16 md:h-auto rounded-l bg-center bg-cover cursor-pointer flex items-center text-center" style="background-image: url('{{ sitesub.ssimage }}')" onclick="window.open('{{ sitesub.ssurl }}', '_blank');">
+                                            <div class="w-full md:w-1/4 h-16 md:h-auto rounded-t md:rounded-l bg-center bg-cover cursor-pointer flex items-center text-center" style="background-image: url('{{ sitesub.ssimage }}')" onclick="window.open('{{ sitesub.ssurl }}', '_blank');">
                                             </div>
                                             <div class="w-full md:w-2/3 p-8">
                                                 <div class="flex flex-wrap">
