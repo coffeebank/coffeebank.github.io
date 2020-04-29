@@ -137,7 +137,7 @@ sitelist:
   - sname: Personal Projects
     ssubline: Web Apps, Landing Pages, and more
     surl: /
-    simage: /home/media/aaron-lau-eonll3l3igq-unsplash_min.jpg
+    simage: /home/media/aaron-lau-EOnlL3L3IgQ-unsplash_min.jpg
     sdesc: "Trying out a handful of technologies to create progressive web apps, landing pages, services, and more. Creations are experimental and bug-prone. Drop by my Github and say hello!"
     sdescurl: https://github.com/coffeebank
     sbadges:
