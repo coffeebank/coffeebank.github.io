@@ -152,7 +152,7 @@
     }
     @keyframes mmslideOut {
         from { transform: translateY(0); }
-        to { transform: translateY(-10%); }
+        to { transform: translateY(10%); }
     }
     .micromodal-slide {
       display: none;
