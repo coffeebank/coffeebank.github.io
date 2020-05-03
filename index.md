@@ -153,14 +153,14 @@ sitelist:
           - Jekyll
           - Tailwind
 
-      - ssname: Craftmc
-        ssurl: /craftmc
-        ssimage: /home/media/craftmcsite03.png
-        ssdesc: A landing page for a yet-to-be-named Minecraft server. Server name, IP, and map URL can be easily changed by a json file, which the website pulls from using Fetch API. Integrates Discord via Widgetbot.
+      - ssname: CrispMC
+        ssurl: /crispmc
+        ssimage: /home/media/crispmc.jpg
+        ssdesc: A crisp, lightweight, responsive landing page for a Minecraft server. Server name and IP can be easily changed. IP background changes when server goes offline. Integrates Discord via Widgetbot, and Minecraft server status with Mcsrvstat.us.
         ssbadges:
           - Tailwind
-          - Vue.js
           - Fetch API
+          - Minecraft
 
       - ssname: Portfolio (2019)
         ssurl: /home/uikit
