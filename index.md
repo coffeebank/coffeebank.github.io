@@ -162,13 +162,6 @@ sitelist:
           - Fetch API
           - Minecraft
 
-      - ssname: Portfolio (2019)
-        ssurl: /home/uikit
-        ssimage: /home/media/portfolio01.jpg
-        ssdesc: (Deprecated) The first version of my portfolio site, built using UIkit. Text animations on hover, fullscreen modals, and clean design.
-        ssbadges:
-          - UIkit
-
       - ssname: Moe Heaven
         ssurl: /moeh
         ssimage: /home/media/moehsite02.png
