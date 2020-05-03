@@ -1,4 +1,4 @@
 ---
 layout: redirect
-tourl: /crispmc
+tourl: /crispmc/
 ---
