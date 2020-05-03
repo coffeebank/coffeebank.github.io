@@ -119,7 +119,7 @@ sitelist:
           - Live support
 
       - ssname: Arland Weebly (2016)
-        ssurl: /arland/arlandw
+        ssurl: /arland/arlandw2
         ssimage: /home/media/arlandw2.jpg
         ssdesc: (Deprecated) A landing page for Arland and its Minecraft launcher, Arcraft Launcher. A simple frontend website that introduces the service, how to join Arland, and whether they'd like to install Arcraft Launcher for a full Arland experience.
         ssbadges:
