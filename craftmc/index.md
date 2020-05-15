@@ -1,4 +1,4 @@
 ---
 layout: redirect
-tourl: /crispmc/
+tourl: https://github.com/coffeebank/moonrise
 ---
