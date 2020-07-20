@@ -1,4 +1,4 @@
 ---
 layout: redirect
-tourl: /castlecore/
+tourl: https://github.com/coffeebank/moonrise
 ---
