@@ -80,7 +80,7 @@ sitelist:
           - Weebly
           - Landing page
 
-  - sname: Moonrise MC
+  - sname: Arland Studios
     ssubline: Minecraft Server Websites
     surl: /wyscraft
     simage: "/home/media/aron-visuals-LSFuPFE9vKE-unsplash (1).jpg"
@@ -150,7 +150,6 @@ sitelist:
     sdescurl: https://github.com/coffeebank
     sbadges:
       - Free/Open Source
-      - Tailwind
       - Landing page
     ssection:
       - ssname: Moonrise MC
