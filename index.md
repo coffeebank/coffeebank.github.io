@@ -80,21 +80,29 @@ sitelist:
           - Weebly
           - Landing page
 
-  - sname: Arland
-    ssubline: Minecraft Server
+  - sname: Moonrise MC
+    ssubline: Minecraft Server Websites
     surl: /arland
     simage: "/home/media/aron-visuals-LSFuPFE9vKE-unsplash (1).jpg"
-    sdesc: "Arland is a Minecraft server run in a small group format, within a tightknit community of players."
+    sdesc: "Websites made as a frontend for Minecraft servers to easily portray Server IP, map links, and update users on the latest information."
     sdescurl: false
     sbadges:
       - PWA
       - MaterializeCSS
       - Weebly
     ssection:
+      - ssname: Wyscraft - Minecraft Server
+        ssurl: /wyscraft
+        ssimage: /home/media/arlandpwa_min.jpg
+        ssdesc: Uses Jekyll to bring a simple Minecraft website template to life. Allows easy config.yml startup with easily extendable page redirects, content pages, and customization options that provide a unified home for all Minecraft server content outside of Discord.
+        ssbadges:
+          - Jekyll
+          - Server Status API
+
       - ssname: Arland - Minecraft Server
         ssurl: /arland
         ssimage: /home/media/arlandpwa_min.jpg
-        ssdesc: The primary landing page for all things Arland. Brings Arland's web properties into the future by utilizing MaterializeCSS to implement a modern look and feel that is responsive across all screen sizes. Experiments with noscript fallbacks, <code>position:sticky</code>, z-index, and animated scrolling to page anchors.
+        ssdesc: The primary landing page for all things Arland. Modernizes Arland's web properties by utilizing MaterializeCSS to implement a material design look and feel that is responsive across all screen sizes. Experiments with noscript fallbacks, <code>position:sticky</code>, z-index, and animated scrolling to page anchors.
         ssbadges:
           - PWA
           - MaterializeCSS
@@ -141,10 +149,27 @@ sitelist:
     sdesc: "Trying out a handful of technologies to create progressive web apps, landing pages, services, and more. Creations are experimental and bug-prone. Drop by my Github and say hello!"
     sdescurl: https://github.com/coffeebank
     sbadges:
+      - Free/Open Source
       - Tailwind
-      - Vue.js
       - Landing page
     ssection:
+      - ssname: Moonrise MC
+        ssurl: /moonrise
+        ssimage: /home/media/crispmc.jpg
+        ssdesc: A simple, lightweight, responsive landing page template for a Minecraft server. Server name and IP can be easily changed. IP background changes when server goes offline. Integrates Discord via Widgetbot, and Minecraft server status with Mcsrvstat.us.
+        ssbadges:
+          - Free/Open Source
+          - Tailwind
+          - Fetch API
+          - Minecraft
+
+      - ssname: Aqua Stars
+        ssurl: /aquastars
+        ssimage: /home/media/portfolio02.jpg
+        ssdesc: An experiment with Vue.js to create a smoothly animated website using Vue.js and Vue Router. Includes live radio from Listen.moe and responsive design.
+        ssbadges:
+          - Vue.js
+
       - ssname: Portfolio
         ssurl: /
         ssimage: /home/media/portfolio02.jpg
@@ -152,15 +177,6 @@ sitelist:
         ssbadges:
           - Jekyll
           - Tailwind
-
-      - ssname: CrispMC
-        ssurl: /crispmc
-        ssimage: /home/media/crispmc.jpg
-        ssdesc: A crisp, lightweight, responsive landing page for a Minecraft server. Server name and IP can be easily changed. IP background changes when server goes offline. Integrates Discord via Widgetbot, and Minecraft server status with Mcsrvstat.us.
-        ssbadges:
-          - Tailwind
-          - Fetch API
-          - Minecraft
 
       - ssname: Moe Heaven
         ssurl: /moeh
