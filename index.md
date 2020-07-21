@@ -93,7 +93,7 @@ sitelist:
     ssection:
       - ssname: Wyscraft - Minecraft Server
         ssurl: /wyscraft
-        ssimage: /home/media/arlandpwa_min.jpg
+        ssimage: /home/media/wyscraft01.png
         ssdesc: Uses Jekyll to bring a simple Minecraft website template to life. Allows easy config.yml startup with easily extendable page redirects, content pages, and customization options that provide a unified home for all Minecraft server content outside of Discord.
         ssbadges:
           - Jekyll
@@ -111,7 +111,7 @@ sitelist:
       - ssname: Arland Blog
         ssurl: /arland/blog/
         ssimage: /home/media/arlandpwa02.jpg
-        ssdesc: Recreating the Weebly blog experience in Jekyll. "See more" now shows all posts upon click, social media share widgets have been replaced with Clipboardjs, and comments section was replaced with a GitHub API powered experience. Status indicator pulls from an easy-to-update html file (shows on homepage for larger screens).
+        ssdesc: Recreating the Weebly blog experience in Jekyll. Disqus comments replaced with a Fetch API experience that pulls comments from GitHub. Social media share widgets are replaced with Clipboardjs, "See more" shows all posts quicker upon click, and status indicator pulls from an easy-to-update html file (shows on homepage for larger screens).
         ssbadges:
           - Jekyll
           - GitHub API
@@ -165,7 +165,7 @@ sitelist:
 
       - ssname: Aqua Stars
         ssurl: /aquastars
-        ssimage: /home/media/portfolio02.jpg
+        ssimage: /home/media/aquastars.png
         ssdesc: An experiment with Vue.js to create a smoothly animated website using Vue.js and Vue Router. Includes live radio from Listen.moe and responsive design.
         ssbadges:
           - Vue.js
