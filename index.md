@@ -82,7 +82,7 @@ sitelist:
 
   - sname: Moonrise MC
     ssubline: Minecraft Server Websites
-    surl: /arland
+    surl: /wyscraft
     simage: "/home/media/aron-visuals-LSFuPFE9vKE-unsplash (1).jpg"
     sdesc: "Websites made as a frontend for Minecraft servers to easily portray Server IP, map links, and update users on the latest information."
     sdescurl: false
