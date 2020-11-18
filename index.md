@@ -23,7 +23,7 @@ sitelist:
     sbadges:
       - Jekyll
       - Bootstrap
-      - Vue.js
+      - Documentation
     ssection:
       - ssname: Wysc&#12539;Virtual Study Cafe
         ssurl: /wysc
@@ -32,25 +32,24 @@ sitelist:
         ssbadges:
           - PWA
           - Bootstrap
-          - Polyfills
+          - Browser Support
           - Live chat widget
-
-      - ssname: Wysc Showcase
-        ssurl: /wysc-vue
-        ssimage: /home/media/wyscshowcase01.jpg
-        ssdesc: A Vue.js website made to demonstrate the creation of the Wysc site. With a modern, clean design, Wysc Showcase features a dark theme by default, uses Vue Router to smoothly animate pages, and experiments with subtle CSS animations.
+          
+      - ssname: Wyscraft - Minecraft Server
+        ssurl: /wyscraft
+        ssimage: /home/media/wyscraft01.png
+        ssdesc: Uses Jekyll to bring a simple Minecraft website template to life. Allows easy config.yml startup with easily extendable page redirects, content pages, and customization options that provide a unified home for all Minecraft server content outside of Discord.
         ssbadges:
-          - Vue.js
-          - Vue Router
-          - Dark theme
+          - Jekyll
+          - Server Status API
           
       - ssname: Wysc Docs
         ssurl: /wysc/docs
         ssimage: /home/media/wyscsitedocs01_min.jpg
-        ssdesc: A documentation system made for Wysc that leverages Jekyll to create an easy-to-update repository of data and features. Features an alert system powered by Fetch API, search by Algolia, breadcrumbs for SEO, and Anchorjs for heading anchors on hover. Applies Jekyll for-loop functionality copiously to replicate page elements easily.
+        ssdesc: A documentation system made for Wysc that leverages Jekyll to create an easy-to-update repository of data and features. Features an alert system powered by Fetch API, search by Lunr.js (coming soon), breadcrumbs for SEO, and Anchorjs for heading anchors on hover.
         ssbadges:
           - Jekyll
-          - Algolia
+          - Lunr.js
           - SEO
 
       - ssname: Wysc Blog
@@ -63,15 +62,6 @@ sitelist:
           - Fetch API
           - RSS Feed
 
-      - ssname: Wysc Dashboard
-        ssurl: /wysc/dash
-        ssimage: /home/media/wyscsitestart01_min.jpg
-        ssdesc: (Deprecated) A minimalist new tab dashboard geared towards productivity. Using Jekyll, javascript tabs, and iframes, Wysc Dashboard is free of distractions and brings the browser to you in a clean web app launchable from your desktop. Features Wysc Discord integration using Widgetbot and weather integration using IPAPI and OpenWeatherMap.
-        ssbadges:
-          - Jekyll
-          - Dashboard
-          - Weather API
-
       - ssname: Work &middot; Studying &middot; Chilling
         ssurl: /wysc/joinwsc
         ssimage: /home/media/wyscjoinwsc_min.jpg
@@ -80,24 +70,74 @@ sitelist:
           - Weebly
           - Landing page
 
-  - sname: Arland Studios
-    ssubline: Minecraft Server Websites
-    surl: /wyscraft
-    simage: "/home/media/aron-visuals-LSFuPFE9vKE-unsplash (1).jpg"
-    sdesc: "Websites made as a frontend for Minecraft servers to easily portray Server IP, map links, and update users on the latest information."
-    sdescurl: false
+  - sname: Myaa
+    ssubline: Designing a premium showcase with deep integrations
+    surl: /myaa
+    simage: "/home/media/bailey-zindel-NRQV-hBF10M-unsplash_c02.jpg"
+    sdesc: "A custom-built personal showcase that explores APIs from services to create a best-in-class user experience, unifying services and displaying fresh content to represent Myaa."
+    sdescurl: https://myaa.netlify.app
     sbadges:
+      - Vue.js
+      - Tailwind
       - PWA
-      - MaterializeCSS
-      - Weebly
     ssection:
-      - ssname: Wyscraft - Minecraft Server
-        ssurl: /wyscraft
-        ssimage: /home/media/wyscraft01.png
-        ssdesc: Uses Jekyll to bring a simple Minecraft website template to life. Allows easy config.yml startup with easily extendable page redirects, content pages, and customization options that provide a unified home for all Minecraft server content outside of Discord.
+      - ssname: Anime
+        ssurl: /myaa/anime
+        ssimage: /home/media/am02.jpg
+        ssdesc: Integrates recently watched/read feeds in a mobile-adaptive format. Backend is a simple list in the Vuex store. Data is lazily fetched, live from AniList, as user navigates through each page. Careful attention to UX through placeholders and responsive interface as data loads.
         ssbadges:
+          - Vue.js
+          - MyAnimeList (Jikan API)
+          - AniList API
+          - User Experience
+
+      - ssname: Music
+        ssurl: /myaa/music
+        ssimage: /home/media/am03.jpg
+        ssdesc: UI design inspired by Spotify. Backend is a simple list of playlist IDs. Retrieves user playlist images, song data, and music samples directly from Spotify Web API. UX considerations include playlist song counts, autostop when playing new sample, and visual indicators for no-sample songs.
+        ssbadges:
+          - Vue.js
+          - Spotify Web API
+          - HTML5 Audio
+
+      - ssname: Emotes
+        ssurl: /myaa/emotes
+        ssimage: /home/media/am04.jpg
+        ssdesc: A frontend for a saved archive of liked Discord emotes. Easily click to copy image URLs with a satisfying app-like experience. Performance enhancements include swipe to switch tabs, lazy loaded images, and click-to-play for animated emotes.
+        ssbadges:
+          - Vuetify JS
+          - Javascript
+          - Sheepicon
+
+  - sname: Personal Projects
+    ssubline: Web Apps, Landing Pages, and more
+    surl: /
+    simage: /home/media/aaron-lau-EOnlL3L3IgQ-unsplash_min.jpg
+    sdesc: "Trying out a handful of technologies to create progressive web apps, landing pages, services, and more. Drop by my Github and say hi!<br><br>Current portfolio site built using Jekyll and Tailwind. Modals powered by Micromodaljs, icons by Feather Icons, images from Jaro Bielik and Aaron Lau (no affiliation)."
+    sdescurl: https://github.com/coffeebank
+    sbadges:
+      - Free/Open Source
+      - Landing page
+    ssection:
+      - ssname: Sheepicon
+        ssurl: /sheepicon
+        ssimage: /home/media/sheepicon.jpg
+        ssdesc: A quick, clean dashboard for saving and copying image links easily, including Discord emotes. Thanks to Markdown, links are easy to add, save, and publish. Responsively designed, caches for offline use, and includes a REST API for those making custom frontends!
+        ssbadges:
+          - Free/Open Source
           - Jekyll
-          - Server Status API
+          - Tailwind
+          - Javascript
+
+      - ssname: Moonrise MC
+        ssurl: /moonrise
+        ssimage: /home/media/crispmc.jpg
+        ssdesc: A simple, lightweight, responsive landing page template for a Minecraft server. Server name and IP can be easily changed. IP background changes when server goes offline. Integrates Discord via Widgetbot, and Minecraft server status with Mcsrvstat.us.
+        ssbadges:
+          - Free/Open Source
+          - Tailwind
+          - Fetch API
+          - Minecraft
 
       - ssname: Arland - Minecraft Server
         ssurl: /arland
@@ -117,23 +157,6 @@ sitelist:
           - GitHub API
           - Weebly
 
-      - ssname: Arland Weebly
-        ssurl: /arland/arlandw
-        ssimage: /home/media/arlandw_min.jpg
-        ssdesc: (Deprecated) A homepage for all Arland resources, designed in Weebly. Uses parallax, shadows, and light gray sans-serif fonts to deliver a clean user experience. Features Crisp chat for live support.<br><br><em>(Note&colon; Some image assets have been replaced, which may degrade the viewing experience.)</em>
-        ssbadges:
-          - Weebly
-          - Modern design
-          - Live support
-
-      - ssname: Arland Weebly (2016)
-        ssurl: /arland/arlandw2
-        ssimage: /home/media/arlandw2.jpg
-        ssdesc: (Deprecated) A landing page for Arland and its Minecraft launcher, Arcraft Launcher. A simple frontend website that introduces the service, how to join Arland, and whether they'd like to install Arcraft Launcher for a full Arland experience.
-        ssbadges:
-          - Weebly
-          - Downloads
-
       - ssname: Arland Mobile
         ssurl: /arland/arlandapp
         ssimage: /home/media/arlandapp_min.jpg
@@ -141,48 +164,5 @@ sitelist:
         ssbadges:
           - W3CSS
           - Mobile
-
-  - sname: Personal Projects
-    ssubline: Web Apps, Landing Pages, and more
-    surl: /
-    simage: /home/media/aaron-lau-EOnlL3L3IgQ-unsplash_min.jpg
-    sdesc: "Trying out a handful of technologies to create progressive web apps, landing pages, services, and more. Creations are experimental and bug-prone. Drop by my Github and say hello!"
-    sdescurl: https://github.com/coffeebank
-    sbadges:
-      - Free/Open Source
-      - Landing page
-    ssection:
-      - ssname: Moonrise MC
-        ssurl: /moonrise
-        ssimage: /home/media/crispmc.jpg
-        ssdesc: A simple, lightweight, responsive landing page template for a Minecraft server. Server name and IP can be easily changed. IP background changes when server goes offline. Integrates Discord via Widgetbot, and Minecraft server status with Mcsrvstat.us.
-        ssbadges:
-          - Free/Open Source
-          - Tailwind
-          - Fetch API
-          - Minecraft
-
-      - ssname: Aqua Stars
-        ssurl: /aquastars
-        ssimage: /home/media/aquastars.png
-        ssdesc: An experiment with Vue.js to create a smoothly animated website using Vue.js and Vue Router. Includes live radio from Listen.moe and responsive design.
-        ssbadges:
-          - Vue.js
-
-      - ssname: Portfolio
-        ssurl: /
-        ssimage: /home/media/portfolio02.jpg
-        ssdesc: The current version of my portfolio site, built using Jekyll and Tailwind. Jekyll makes updating content and setting custom redirects easy. Uses offline service worker. Modals powered by Micromodaljs, icons by Feather Icons, images from Jaro Bielik and Aaron Lau (no affiliation).
-        ssbadges:
-          - Jekyll
-          - Tailwind
-
-      - ssname: Moe Heaven
-        ssurl: /moeh
-        ssimage: /home/media/moehsite02.png
-        ssdesc: A landing page for Moe Heaven. Features a floating action button with copy link on hover.
-        ssbadges:
-          - MaterializeCSS
-          - Landing page
 
 ---

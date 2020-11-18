@@ -185,8 +185,8 @@
 * ---------------------------------------------- */
 
 .fade-in-fwd {
-	-webkit-animation: fade-in-fwd 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-fwd 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	-webkit-animation: fade-in-fwd 1.2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+	        animation: fade-in-fwd 1.2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
     @-webkit-keyframes fade-in-fwd {
         0% {

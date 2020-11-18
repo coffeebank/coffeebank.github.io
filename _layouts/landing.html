@@ -78,7 +78,7 @@ layout: base
 
                                     {% for sitesub in sitecell.ssection %}
                                         <div class="flex flex-wrap bg-white w-full rounded shadow-lg mb-4 items-stretch">
-                                            <div class="w-full md:w-1/4 h-16 md:h-auto rounded-t md:rounded-l bg-center bg-cover cursor-pointer flex items-center text-center" style="background-image: url('{{ sitesub.ssimage }}')" onclick="window.open('{{ sitesub.ssurl }}', '_blank');">
+                                            <div class="w-full md:w-1/4 h-16 md:h-auto rounded-t md:rounded-l md:rounded-r-none bg-center bg-cover cursor-pointer flex items-center text-center" style="background-image: url('{{ sitesub.ssimage }}')" onclick="window.open('{{ sitesub.ssurl }}', '_blank');">
                                             </div>
                                             <div class="w-full md:w-2/3 p-8">
                                                 <div class="flex flex-wrap">

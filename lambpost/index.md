@@ -1,4 +1,4 @@
 ---
 layout: redirect
-tolocalurl: /wyscraft/
+tolocalurl: /sheepicon/
 ---
