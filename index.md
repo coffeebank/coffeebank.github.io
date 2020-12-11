@@ -158,12 +158,4 @@ sitelist:
           - GitHub API
           - Weebly
 
-      - ssname: Arland Mobile
-        ssurl: /arland/arlandapp
-        ssimage: /home/media/arlandapp_min.jpg
-        ssdesc: (Deprecated) A mobile website for Arland, created using W3CSS, javascript tabs, back buttons, iframes, and animations.
-        ssbadges:
-          - W3CSS
-          - Mobile
-
 ---
