@@ -46,11 +46,12 @@ sitelist:
       - ssname: Wysc Docs
         ssurl: /wysc/docs
         ssimage: /home/media/wyscsitedocs01_min.jpg
-        ssdesc: A documentation system made for Wysc that leverages Jekyll to create an easy-to-update repository of data and features. Features an alert system powered by Fetch API, search by Lunr.js (coming soon), breadcrumbs for SEO, and Anchorjs for heading anchors on hover.
+        ssdesc: A documentation system made for Wysc that leverages Jekyll to create an easy-to-update repository. Features an alert system with Fetch API, local search with Lunr.js, and light/dark theme built in SCSS. Uses Simple-DataTable for quick, searchable bot command lists. SEO enhancements including breadcrumbs, redirects, and og:tags.
         ssbadges:
-          - Jekyll
-          - Lunr.js
-          - SEO
+          - Sass/SCSS
+          - Light/Dark Theme
+          - Fetch API
+          - Command Lists
 
       - ssname: Wysc Blog
         ssurl: /wysc/blog
@@ -86,10 +87,10 @@ sitelist:
         ssimage: /home/media/am02.jpg
         ssdesc: Integrates recently watched/read feeds in a mobile-adaptive format. Backend is a simple list in the Vuex store. Data is lazily fetched, live from AniList, as user navigates through each page. Careful attention to UX through placeholders and responsive interface as data loads.
         ssbadges:
-          - Vue.js
-          - MyAnimeList (Jikan API)
-          - AniList API
-          - User Experience
+          - CSS Scroll Snap
+          - GraphQL REST API
+          - Transitions
+          - Vuex store
 
       - ssname: Music
         ssurl: /myaa/music
@@ -149,7 +150,7 @@ sitelist:
           - Material Design
 
       - ssname: Arland Blog
-        ssurl: /arland/blog/
+        ssurl: /arland/blog
         ssimage: /home/media/arlandpwa02.jpg
         ssdesc: Recreating the Weebly blog experience in Jekyll. Disqus comments replaced with a Fetch API experience that pulls comments from GitHub. Social media share widgets are replaced with Clipboardjs, "See more" shows all posts quicker upon click, and status indicator pulls from an easy-to-update html file (shows on homepage for larger screens).
         ssbadges:
