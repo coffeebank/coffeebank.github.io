@@ -14,15 +14,15 @@ if (granId != null) {
   })
   .then(response => response.json())
   .then(data => {
-    console.log("gran: Session history - " + data.body);
+    console.log("gran: Session history - " + data.body + ' -> ' + window.location.pathname);
     return fetch("https://api.github.com/repos/coffeebank/ghca/issues/comments/" + granId, { 
-      method: "POST",
+      method: "PATCH",
       headers: { 
         'Accept': 'application/vnd.github.v3+json',
         'Authorization': 'token ' + granToken
       },
       // Get existing message, concatenate current pathname
-      body: JSON.stringify({"body": data.body + ', ' + window.location.pathname })
+      body: JSON.stringify({"body": data.body + ', ' + window.location.pathname})
     })
   })
     
