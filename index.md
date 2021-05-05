@@ -26,7 +26,7 @@ sitelist:
       - Documentation
     ssection:
       - ssname: Wysc&#12539;Virtual Study Cafe
-        ssurl: /wysc
+        ssurl: "https://wysc.us.to"
         ssimage: /home/media/wyscsite_min.jpg
         ssdesc: A web app built to inform and impress. Uses deferred content loading techniques to load pages quickly and polyfills to extend browser support. Equipped with Open Graph tags for social media, Widgetbot for live chat support, and progressive web app support for iOS, Android, and Chrome. Hosted on GitHub Pages in Jekyll.
         ssbadges:
@@ -44,7 +44,7 @@ sitelist:
           - Server Status API
           
       - ssname: Wysc Docs
-        ssurl: /wysc/docs
+        ssurl: "https://wysc.us.to/docs"
         ssimage: /home/media/wyscsitedocs01_min.jpg
         ssdesc: A documentation system made for Wysc that leverages Jekyll to create an easy-to-update repository. Features an alert system with Fetch API, local search with Lunr.js, and light/dark theme built in SCSS. Uses Simple-DataTable for quick, searchable bot command lists. SEO enhancements including breadcrumbs, redirects, and og:tags.
         ssbadges:
@@ -54,7 +54,7 @@ sitelist:
           - Command Lists
 
       - ssname: Wysc Blog
-        ssurl: /wysc/blog
+        ssurl: "https://wysc.us.to/blog"
         ssimage: /home/media/wyscsiteblog01_min.jpg
         ssdesc: A blog system made for Wysc that leverages Jekyll to recreate a live experience on a static website. Features a static json API that can be easily updated, which is connected to the Wysc Blog homepage by Fetch API to reflect status updates. Latest three blog posts are shown, with a "Load more posts" button. Comes with an RSS feed updated automatically by Jekyll.
         ssbadges:
@@ -64,7 +64,7 @@ sitelist:
           - RSS Feed
 
       - ssname: Work &middot; Studying &middot; Chilling
-        ssurl: /wysc/joinwsc
+        ssurl: "https://wysc.us.to/joinwsc"
         ssimage: /home/media/wyscjoinwsc_min.jpg
         ssdesc: (Deprecated) Provides a simple front-end webpage for WSC (Work &middot; Studying &middot; Chilling), geared towards funnelling users to the WSC Discord. Features parallax images, Discord widget, and elements fading in on scroll, organized in an informative fashion.
         ssbadges:
