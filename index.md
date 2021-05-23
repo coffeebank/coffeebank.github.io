@@ -159,3 +159,5 @@ sitelist:
           - Weebly
 
 ---
+
+<meta name="google-site-verification" content="zqAmu3gsMd4YRk6M3zUMkIprDgoQGQV7prZEMaZu6LA" />
