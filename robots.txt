@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /blog/
+Allow: /coffee-cogs/
+Allow: /coffee-maubot/
+
+Sitemap: https://coffeebank.github.io/sitemap.xml
